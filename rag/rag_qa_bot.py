@@ -12,6 +12,7 @@ from langchain.chat_models import ChatOllama
 
 # ✅ 1️⃣ PDF 파일 경로 설정
 file_path = "절대경로"  # 절대 경로로 변경
+## 모빌리티 관련 대한민국 정부문서를 활용하였습니다.
 if not os.path.exists(file_path):
     raise FileNotFoundError(f"🚨 PDF 파일이 존재하지 않습니다: {file_path}")
 
